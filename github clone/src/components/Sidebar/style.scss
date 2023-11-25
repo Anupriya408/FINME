@@ -1,0 +1,41 @@
+.sidebar {
+  transform: translateY(-25px);
+}
+.profile__img {
+  background-position: center;
+  background-position: center;
+  background-size: cover;
+  // height: 284.5px;
+  width: 100%;
+}
+
+.edit__btn:hover {
+  background-color: darken($color: #f8f9fa, $amount: 5) !important;
+}
+.followers {
+  a {
+    color: #555;
+    text-decoration: none;
+    font-size: small;
+    span {
+      color: #111;
+      font-weight: 500;
+    }
+    &:hover {
+      color: #0969da;
+      span {
+        color: #0969da;
+      }
+    }
+  }
+}
+.bio p {
+  margin: 0;
+}
+.following__btn {
+  border: none;
+  background-color: transparent;
+  &:hover{
+    color: #0969da;
+  }
+}

@@ -1,0 +1,14 @@
+.user__list {
+  li {
+    list-style-type: none;
+    padding: 3px 10px;
+    border-radius: 5px;
+    &:hover {
+      color: blue;
+      margin-left: 5px;
+      transition: all 0.3s ease;
+      background-color: #d8d5d5;
+      cursor: pointer;
+    }
+  }
+}

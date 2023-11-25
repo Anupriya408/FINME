@@ -1,0 +1,30 @@
+.home__page--menu {
+  & .nav-link {
+    margin: 0 2px;
+    color: #555;
+    font-weight: 500;
+    position: relative;
+    border-bottom: 2px solid white;
+    &:focus{
+      border-bottom: 2px solid coral;
+      border-bottom-left-radius: 0;
+      border-bottom-right-radius: 0;
+      font-weight: 700;
+    }
+    span:first-child{
+      padding: 6px 8px;
+      border-radius: 7px;
+      &:hover{
+        background-color: #f4f4f4;
+      }
+    }
+   
+  }
+  .badge {
+    background-color: rgb(233, 231, 231);
+    color: #111;
+  }
+}
+.icons {
+  margin: 0 4px 3px 0;
+}

@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.my__container {
+  max-width: 1240px;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+.text__sm{
+  font-size: 14px;
+}
+.text__sm--12{
+  font-size: 12px;
+}
