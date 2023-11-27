@@ -11,6 +11,7 @@ function App() {
         <Header />
         <Home />
         <Footer />
+    
       </BrowserRouter>
     </div>
   );
